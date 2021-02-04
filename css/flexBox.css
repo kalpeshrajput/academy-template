@@ -1,0 +1,62 @@
+.container{
+    
+    margin: 10px;
+    text-align: center;
+    margin: 50px;
+
+}
+.box{
+    color:black;
+}
+.box-one,.box-two,.box-three {
+    display: inline-block;
+    margin: 10px;
+    background-color: transparent;
+    padding: 50px;
+    width: 150px;  
+
+}
+.box-one:hover,.box-two:hover,.box-three:hover{
+    color: rgb(145, 200, 206);
+}
+
+.batchInfo{
+ background-color:rgb(80, 77, 77);
+ text-align: center;
+}
+.batchTimeTable,.txtInfo{
+   display: inline-block;
+   margin-top: 20px;
+    height: 60px;
+    width: 656px;
+}
+.txtInfo:hover{
+   color: rgb(180, 179, 178);
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    text-align: center;
+}
+.about,.QuickLinks,.Address{
+    display: inline-block;
+    color: white;
+    padding: 70px;
+    margin: 25px;
+    height: 150px;
+    width: 250px;
+    list-style-type:none;
+    
+}
+
+.QuickLinks ul{
+    list-style-type:none;
+}
+.QuickLinks:hover{
+    color: rgb(145, 200, 206);;
+}
+#horiLine{
+    border: 1px solid gray;
+}
+
